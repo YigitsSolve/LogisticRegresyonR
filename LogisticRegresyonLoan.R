@@ -31,7 +31,7 @@ for (var in categorical_vars) {
   plots[[length(plots) + 1]] <- p
 }
 
-# Tüm grafikleri bir araya getirip görselleştirme
+# Tüm grafikleri bir araya getirip görselleştir
 grid.arrange(grobs = plots, ncol = 2)
 
 library(dplyr)
@@ -65,7 +65,7 @@ for (var in categorical_vars) {
   plots[[length(plots) + 1]] <- p
 }
 
-# İşlenmiş Verinin Tüm grafikleri bir araya getirip görselleştirme
+# İşlenmiş Verinin Tüm grafikleri bir araya getirip görselleştir
 grid.arrange(grobs = plots, ncol = 2)
 
 
