@@ -78,7 +78,7 @@ loan_data_set$CoapplicantIncome <- sqrt(loan_data_set$CoapplicantIncome)
 loan_data_set$LoanAmount <- sqrt(loan_data_set$LoanAmount)
 
 # Eğitim ve test setlerini ayır
-set.seed(123)
+set.seed(12032024)
 train_index <- sample(1:nrow(loan_data_set), 0.8 * nrow(loan_data_set))
 X_train <- loan_data_set[train_index, -which(names(loan_data_set) == "Loan_Status")]
 y_train <- loan_data_set$Loan_Status[train_index]
